@@ -30,7 +30,7 @@ body::before {
 
 @media (min-width: 360) {
   body::before {
-    right: -100px;
+    right: -100px !important;
 }
 }
 
