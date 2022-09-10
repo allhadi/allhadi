@@ -28,7 +28,7 @@ body::before {
   z-index: -1;
 }
 
-@media (max-width: 360) {
+@media (min-width: 360) {
   body::before {
     right: -100px;
 }
