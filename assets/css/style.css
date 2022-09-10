@@ -28,6 +28,12 @@ body::before {
   z-index: -1;
 }
 
+@media (max-width: 360) {
+  body::before {
+    right: -100px;
+}
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
